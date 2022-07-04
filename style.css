@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-text{
+    color: #FF1E1E;
+    padding-right:5px;
+    
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #575757;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flexible{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.top-banner-items{
+    padding-top: 160px;
+    padding-left: 80px;
+}
+
+.top-banner-items p{
+    font-size: 20px;
+    color: rgba(130, 130, 130, 1);
+    margin: 40px 0;
+}
+
+.top-banner-items a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);;
+}
+
+.top-banner-img{
+    width: 80%;
+    padding-top: 60px;
+    
+}
