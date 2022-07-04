@@ -21,17 +21,43 @@ h1{
     color: #575757;
 }
 
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
 a{
     text-decoration: none;
 }
 
+p{
+    font-size: 16px;
+    text-align: justify;
+    color: #18191F;
+    line-height: 1.5;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);;
+}
+
 .flexible{
     display: flex;
+    margin-bottom: 50px;
 }
 
 .half-width{
     width: 50%;
 }
+
+/* Top Banner style starts */
 
 .top-banner-items{
     padding-top: 160px;
@@ -44,18 +70,37 @@ a{
     margin: 40px 0;
 }
 
-.top-banner-items a{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 130%;
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 30px;
-    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);;
-}
+
 
 .top-banner-img{
     width: 80%;
     padding-top: 60px;
     
 }
+
+/* About Section Starts Here */
+.about{
+    background-image: url("./images/shapes/7.png");
+}
+.about-img{
+    width: 60%;
+    height: auto;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+.about-items{
+    margin-top: 100px;
+    padding: 50px 150px 50px 20px;
+}
+
+.about-items h2{
+    margin-bottom:30px;
+}
+
+.about-items p{
+    margin-bottom: 100px;
+}
+
+
+
